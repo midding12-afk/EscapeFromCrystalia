@@ -6,7 +6,8 @@ A fast-paced, side-scrolling bullet-hell shooter built in UE5.7. This project se
 * **Textureless Procedural Visuals:** Designed 100% of the game's visuals using math-driven, dynamic materials (noise nodes, sine waves, and vector math) to completely eliminate texture memory overhead.
 * **Advanced Material Shaders:** Developed a dynamic water-mimicking background material with flowing distortion effects and translucent, refractive crystalline shaders for enemy models.
 * **Procedural Runtime Level Generation:** Engineered an endless, seed-based level generator (visible via the UI seed tracker) that dynamically constructs obstacles as the player advances.
-* **Object Pooling Framework:** Optimized performance for the high-volume projectile system, maintaining a stable framerate during intense bullet-hell sequences.
+* **Seed-Based C++ Spawner:** Engineered a native C++ backend for the procedural spawner that uses seed-based algorithms to dictate wave generation rules.
+* **Blueprint Object Pooling**: Developed an efficient, lightweight Object Pooling framework in Blueprints to handle high-volume bullet-hell projectiles without performance degradation.
 * **Enhanced Input System:** Fully integrated UE5's native Enhanced Input for fluid character controls.
 
 ## 💾 Playable Build
